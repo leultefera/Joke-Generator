@@ -1,9 +1,8 @@
 /* Color Variables */
 :root {
-    --clr-neon: rgb(219, 143, 0) ;
-    --clr-bg: #023128;
+  --clr-neon: rgb(219, 143, 0);
+  --clr-bg: #023128;
 }
-
 
 /* Presets */
 *,
@@ -18,7 +17,6 @@ body {
   color: var(--clr-neon);
   overflow: visible;
   height: auto;
-  /* text-align: center; */
 }
 .heading {
   margin: 3em;
@@ -37,7 +35,6 @@ body {
 }
 /* Button */
 
-
 .neon-button {
   font-size: 1.3rem;
 
@@ -48,14 +45,10 @@ body {
   border: var(--clr-neon) 0.125em solid;
   padding: 0.25em 8em;
   border-radius: 0.3em;
-
   text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
-
   box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
-
   position: relative;
 }
-
 
 .neon-button::after {
   content: "";
@@ -85,8 +78,3 @@ body {
 .neon-button:focus::after {
   opacity: 1;
 }
-
-
-
-
-
